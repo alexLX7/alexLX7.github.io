@@ -4018,6 +4018,20 @@ input, select, textarea {
 
 		}
 
+	/* Autocrop of all images */
+
+	.autocrop {
+	   margin: 1em 0;
+	   text-align: center;
+	   overflow: hidden;
+	}
+	.autocrop img {
+	   width: 30vw;
+	   height: 30vw;
+	   /* height: auto;
+	   width: 400px; */
+	}
+
 /* Footer */
 
 	#footer {
