@@ -7,6 +7,11 @@
 var slideIndex = 0;
 showSlides();
 
+function currentSlide(n) {
+	slideIndex = n - 1;
+	setTimeout(4000);
+}
+
 function showSlides() {
   var i;
   var slides = document.getElementsByClassName("slideshow");
